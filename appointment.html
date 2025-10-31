@@ -55,7 +55,7 @@
     color: white;
 }
 ::placeholder {
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.9);
     opacity: 1;
 }
 
@@ -65,9 +65,8 @@
 }
 
 /* تأثير hover للأزرار */
-button.btn:hover {
-    background-color: #3a5bcc;
-    color: white;
+button.btn:hover, .btn:hover {
+    opacity: 0.9;
     transition: 0.3s;
 }
 </style>
@@ -204,16 +203,15 @@ button.btn:hover {
 </div>
 <!-- نهاية الهيدر -->
 
-
-     <!-- بداية حجز موعد -->
-<div class="container-fluid appointment py-5" style="background: linear-gradient(135deg, #6fb1fc, #4364f7);">
+<!-- Appointment Start -->
+<div class="container-fluid appointment py-5" style="background: linear-gradient(135deg, #ffb6c1, #ff69b4);">
     <div class="container py-5">
         <div class="row g-5 align-items-center">
-            <!-- نموذج الحجز -->
+            <!-- Form Start -->
             <div class="col-lg-6">
                 <div class="appointment-form p-5" style="background-color: rgba(255,255,255,0.1); border-radius: 15px;">
                     <p class="fs-4 text-uppercase text-light">تواصل معنا</p>
-                    <h1 class="display-4 mb-4 text-white">احجز موعدك</h1>
+                    <h1 class="display-4 mb-4 text-white">احجز موعدك الآن</h1>
                     <form>
                         <div class="row gy-3 gx-4">
                             <div class="col-lg-6">
@@ -223,67 +221,46 @@ button.btn:hover {
                                 <input type="email" class="form-control py-3" placeholder="البريد الإلكتروني">
                             </div>
                             <div class="col-lg-6">
-                                <select class="form-select py-3" aria-label="Default select example">
+                                <select class="form-select py-3" aria-label="Service select">
                                     <option selected disabled>اختر الخدمة</option>
-                                    <option value="1">خدمة 1</option>
-                                    <option value="2">خدمة 2</option>
-                                    <option value="3">خدمة 3</option>
+                                    <option value="1">مساج منزلي</option>
+                                    <option value="2">عناية بالبشرة</option>
+                                    <option value="3">سبا كامل</option>
                                 </select>
                             </div>
                             <div class="col-lg-6">
                                 <input type="date" class="form-control py-3">
                             </div>
                             <div class="col-lg-12">
-                                <textarea class="form-control py-3" name="text" id="area-text" cols="30" rows="5" placeholder="اكتب تعليقك"></textarea>
+                                <textarea class="form-control py-3" name="text" id="area-text" cols="30" rows="5" placeholder="اكتب ملاحظاتك"></textarea>
                             </div>
                             <div class="col-lg-12">
-                                <button type="button" class="btn w-100 py-3" style="background-color: #1e3c72; color: white;">إرسال الآن</button>
+                                <a href="#" class="btn w-100 py-3 px-5" style="background-color: #ff1493; color: white; font-weight: bold; text-align: center;">احجز عبر واتساب الآن</a>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <!-- أوقات العمل -->
+            <!-- Form End -->
+
+            <!-- Opening Hours Start -->
             <div class="col-lg-6">
                 <div class="appointment-time p-5" style="background-color: rgba(255,255,255,0.1); border-radius: 15px;">
-                    <h1 class="display-5 mb-4 text-white">أوقات العمل</h1>
-                    <div class="d-flex justify-content-between fs-5 text-light">
-                        <p>السبت:</p>
-                        <p>09:00 ص – 10:00 م</p>
-                    </div>
-                    <div class="d-flex justify-content-between fs-5 text-light">
-                        <p>الأحد:</p>
-                        <p>09:00 ص – 10:00 م</p>
-                    </div>
-                    <div class="d-flex justify-content-between fs-5 text-light">
-                        <p>الإثنين:</p>
-                        <p>09:00 ص – 10:00 م</p>
-                    </div>
-                    <div class="d-flex justify-content-between fs-5 text-light">
-                        <p>الثلاثاء:</p>
-                        <p>09:00 ص – 10:00 م</p>
-                    </div>
-                    <div class="d-flex justify-content-between fs-5 text-light">
-                        <p>الأربعاء:</p>
-                        <p>09:00 ص – 08:00 م</p>
-                    </div>
-                    <div class="d-flex justify-content-between fs-5 text-light mb-4">
-                        <p>الخميس:</p>
-                        <p>09:00 ص – 05:00 م</p>
-                    </div>
-                    <div class="d-flex justify-content-between fs-5 text-light mb-4">
-                        <p>الجمعة:</p>
-                        <p>مغلق</p>
-                    </div>
-                    <p class="text-light">اطلع على الخصومات الموسمية لأفضل العروض.</p>
+                    <h1 class="display-5 mb-4 text-white">ساعات العمل</h1>
+                    <div class="d-flex justify-content-between fs-5 text-light"><p>السبت:</p><p>09:00 ص – 10:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-light"><p>الأحد:</p><p>09:00 ص – 10:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-light"><p>الاثنين:</p><p>09:00 ص – 10:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-light"><p>الثلاثاء:</p><p>09:00 ص – 10:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-light"><p>الأربعاء:</p><p>09:00 ص – 08:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-light"><p>الخميس:</p><p>09:00 ص – 05:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-light mb-4"><p>الجمعة:</p><p>مغلق</p></div>
+                    <p class="text-light">استفيدي من عروضنا الموسمية والخدمات الاستثنائية.</p>
                 </div>
             </div>
+            <!-- Opening Hours End -->
         </div>
     </div>
 </div>
-<!-- نهاية حجز موعد -->
-
-
 
     <!-- Footer Start -->
 <div class="container-fluid footer py-5">
