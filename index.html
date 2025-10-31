@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+    <head>
+        <meta charset="utf-8">
+      <title>سوكينا - مركز سبا وجمال | Soukaina Spa & Beauty Center</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="img/spa_logo.png">
+<link rel="apple-touch-icon" href="img/spa_logo.png">
+        <!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="سوكينا - مركز سبا وجمال | Soukaina Spa & Beauty Center">
+<meta property="og:description" content="أفضل مركز سبا وجمال لتجربة استرخاء وعناية بالبشرة والجسم.">
+<meta property="og:image" content="img/spa_logo.png">
+<meta property="og:url" content="https://example.com">
+<meta property="og:site_name" content="سوكينا">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="سوكينا - مركز سبا وجمال | Soukaina Spa & Beauty Center">
+<meta name="twitter:description" content="أفضل مركز سبا وجمال لتجربة استرخاء وعناية بالبشرة والجسم.">
+<meta name="twitter:image" content="img/spa_logo.png">
+<meta name="twitter:site" content="@YourTwitterHandle">
+
+<style>
+/* Chat Widget */
+#chat-widget {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    font-family: 'Cairo', sans-serif;
+}
+
+/* Chat Icon */
+#chat-icon {
+    position: fixed;       /* لتثبيت الأيقونة على الشاشة */
+    bottom: 30px;          /* المسافة من أسفل الشاشة */
+    left: 30px;            /* المسافة من اليسار بدلاً من اليمين */
+    background: #ff6b81;
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+}
+
+.blink {
+    animation: blink 1.2s infinite;
+}
+
+@keyframes blink {
+    0%, 50%, 100% { transform: scale(1); }
+    25%, 75% { transform: scale(1.2); }
+}
+
+/* Chat Popup */
+#chat-popup {
+    display: none;
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+    width: 320px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    overflow: hidden;
+    flex-direction: column;
+}
+
+/* Chat Header */
+#chat-header {
+    background: #ff6b81;
+    color: #fff;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#chat-header h4 {
+    margin: 0;
+}
+
+#chat-close {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Chat Messages */
+#chat-messages {
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 10px 15px;
+}
+
+.bot-message {
+    background: #f1f1f1;
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+/* Chat Input */
+#chat-input {
+    display: flex;
+    border-top: 1px solid #ddd;
+}
+
+#chat-input input {
+    flex: 1;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+#chat-input input:focus {
+    outline: none;
+}
+
+#send-btn {
+    background: #ff6b81;
+    border: none;
+    color: #fff;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+</style>
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+<div class="container-fluid sticky-top px-0">
+    <div class="container-fluid topbar d-none d-lg-block">
+        <div class="container px-0">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="me-4 text-light"><i class="fas fa-map-marker-alt text-primary me-2"></i>  المملكة العربية السعودية، الرياض</a>
+                        <a href="https://wa.me/966546474458" class="me-4 text-light"><i class="fas fa-phone-alt text-primary me-2"></i>للتواصل واتساب</a>
+                        <a href="mailto:Example@gmail.com" class="text-light"><i class="fas fa-envelope text-primary me-2"></i>البريد الإلكتروني</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="d-flex align-items-center justify-content-end">
+    <a href="https://www.facebook.com/by.soukaina.spa" target="_blank"
+       class="me-3 btn-square border rounded-circle nav-fill" aria-label="صفحة فيسبوك">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <a href="https://x.com/by.soukaina.spa" target="_blank"
+       class="me-3 btn-square border rounded-circle nav-fill" aria-label="صفحة تويتر (X)">
+        <i class="fab fa-twitter"></i>
+    </a>
+
+    <a href="https://www.instagram.com/by.soukaina.spa/" target="_blank"
+       class="me-3 btn-square border rounded-circle nav-fill" aria-label="صفحة انستغرام">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/by.soukaina.spa" target="_blank"
+       class="btn-square border rounded-circle nav-fill" aria-label="صفحة لينكدإن">
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-light">
+        <div class="container px-0">
+            <nav class="navbar navbar-light navbar-expand-xl">
+                <!-- شعار + الاسم -->
+                <a href="index.html" class="navbar-brand d-flex align-items-center">
+                    <img src="img/spa_logo.png" alt="Soukaina Logo" class="img-fluid me-2"
+                         style="height:45px; width:auto; object-fit:contain;">
+                    <h1 class="m-0 fw-bold"
+                        style="font-family: 'Cairo', sans-serif; font-size: 1.8rem;
+                        background: linear-gradient(90deg, #a86fd1, #f7a8b8);
+                        -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+                        Soukaina
+                    </h1>
+                </a>
+
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+
+                <div class="collapse navbar-collapse bg-light py-3" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto border-top">
+                        <a href="index.html" class="nav-item nav-link active">الرئيسية</a>
+                        <a href="about.html" class="nav-item nav-link">من نحن</a>
+                        <a href="service.html" class="nav-item nav-link">خدماتنا</a>
+                        <a href="price.html" class="nav-item nav-link">الأسعار</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">صفحات</a>
+                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                <a href="team.html" class="dropdown-item">فريق العمل</a>
+                                <a href="testimonial.html" class="dropdown-item">آراء العملاء</a>
+                                <a href="gallery.html" class="dropdown-item">معرض الصور</a>
+                                <a href="appointment.html" class="dropdown-item">حجز خدمة</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">تواصل معنا</a>
+                    </div>
+
+                    <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                        <button class="btn-search btn btn-primary btn-primary-outline-0 rounded-circle btn-lg-square" data-bs-toggle="modal" data-bs-target="#searchModal">
+                            <i class="fas fa-search"></i>
+                        </button>
+                        <a href="appointment.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-4 ms-4">احجز الآن</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+
+      <!-- Carousel Start -->
+<div class="container-fluid carousel-header px-0" dir="ltr">
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img src="img/carousel-3.jpg" class="img-fluid" alt="Spa Image">
+                <div class="carousel-caption">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h4 class="text-primary text-uppercase mb-3">سبا وعناية بالجمال</h4>
+                        <h1 class="display-1 text-capitalize text-dark mb-3">مساج منزلي مريح</h1>
+                        <p class="mx-md-5 fs-4 px-4 mb-5 text-dark">تجربة فريدة من نوعها مع أفضل فريق نسائي محترف. عروض مستمرة واستثنائية في كل زيارة!</p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="btn btn-light btn-light-outline-0 rounded-pill py-3 px-5 me-4" href="appointment.html">احجز الآن</a>
+                            <a class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5" href="https://wa.me/966546474458">واتساب للتنسيق</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel-2.jpg" class="img-fluid" alt="Facial">
+                <div class="carousel-caption">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h4 class="text-primary text-uppercase mb-3">عناية بالبشرة</h4>
+                        <h1 class="display-1 text-capitalize text-dark mb-3">علاجات الوجه المنزلية</h1>
+                        <p class="mx-md-5 fs-4 px-5 mb-5 text-dark">دللي نفسك في راحة منزلك مع فريقنا المحترف، وتمتعي بعروضنا المستمرة.</p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="btn btn-light btn-light-outline-0 rounded-pill py-3 px-5 me-4" href="appointment.html">احجز الآن</a>
+                            <a class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5" href="https://wa.me/966546474458">واتساب للتنسيق</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/carousel-1.jpg" class="img-fluid" alt="Cellulite Treatment">
+                <div class="carousel-caption">
+                    <div class="p-3" style="max-width: 900px;">
+                        <h4 class="text-primary text-uppercase mb-3">جمالك في بيتك</h4>
+                        <h1 class="display-1 text-capitalize text-dark">علاجات النحت والجسم</h1>
+                        <p class="mx-md-5 fs-4 px-5 mb-5 text-dark">خدمات منزلية نسائية مميزة لكل من تبحث عن الراحة والجمال، مع عروض استثنائية.</p>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <a class="btn btn-light btn-light-outline-0 rounded-pill py-3 px-5 me-4" href="appointment.html">احجز الآن</a>
+                            <a class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5" href="https://wa.me/966546474458">واتساب للتنسيق</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">التالي</span>
+        </button>
+    </div>
+</div>
+<!-- Carousel End -->
+
+       <!-- Services Start -->
+<div class="container-fluid services py-5">
+    <div class="container py-5">
+        <div class="mx-auto text-center mb-5" style="max-width: 800px;">
+            <p class="fs-4 text-uppercase text-center text-primary">خدماتنا</p>
+            <h1 class="display-3">خدمات سبا وعناية منزلية</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <div class="services-content text-end">
+                                <h3>عناية بالبشرة</h3>
+                                <p>دللي بشرتك مع أفضل العلاجات المنزلية، من تنظيف عميق إلى ترطيب وتغذية البشرة.</p>
+                                <a href="https://wa.me/966546474458" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">احجز الآن</a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                <img src="img/services-1.jpg" class="img-fluid rounded" alt="Skin Care">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                <img src="img/services-2.jpg" class="img-fluid rounded" alt="Face Mask">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="services-content text-start">
+                                <h3>أقنعة الوجه</h3>
+                                <p>استمتعي بأقنعة طبيعية منزلية لتجديد بشرتك وإشراقتها، مع فريق نسائي محترف.</p>
+                                <a href="https://wa.me/966546474458" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">احجز الآن</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <div class="services-content text-end">
+                                <h3>حمام البخار المنزلي</h3>
+                                <p>استرخي في منزلك مع جلسات حمام البخار لتجديد النشاط وإزالة السموم.</p>
+                                <a href="https://wa.me/966546474458" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">احجز الآن</a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                <img src="img/services-3.jpg" class="img-fluid rounded" alt="Steam Bath">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                <img src="img/services-4.jpg" class="img-fluid rounded" alt="Facial Therapy">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="services-content text-start">
+                                <h3>علاجات الوجه</h3>
+                                <p>جلسات منزلية متخصصة لعناية كاملة بالوجه وتجديد الإشراقة الطبيعية.</p>
+                                <a href="https://wa.me/966546474458" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">احجز الآن</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="services-item bg-light border-4 border-end border-primary rounded p-4">
+                    <div class="row align-items-center">
+                        <div class="col-8">
+                            <div class="services-content text-end">
+                                <h3>مساج الجسم الكامل</h3>
+                                <p>استرخاء وتجديد للطاقة في منزلك مع جلسات مساج متخصصة لكل الجسم.</p>
+                                <a href="https://wa.me/966546474458" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">احجز الآن</a>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                <img src="img/services-5.jpg" class="img-fluid rounded" alt="Body Massage">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="services-item bg-light border-4 border-start border-primary rounded p-4">
+                    <div class="row align-items-center">
+                        <div class="col-4">
+                            <div class="services-img d-flex align-items-center justify-content-center rounded">
+                                <img src="img/services-6.jpg" class="img-fluid rounded" alt="Aroma Therapy">
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="services-content text-start">
+                                <h3>العلاج بالروائح</h3>
+                                <p>جلسات أروما ثيرابي منزلية للاسترخاء وتجديد النشاط الذهني والجسدي.</p>
+                                <a href="https://wa.me/966546474458" class="btn btn-primary btn-primary-outline-0 rounded-pill py-2 px-4">احجز الآن</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="services-btn text-center mt-4">
+                    <a href="service.html" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">مشاهدة كل الخدمات</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services End -->
+
+       <!-- About Start -->
+<div class="container-fluid about py-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-5">
+                <div class="video position-relative">
+                    <img src="img/about-1.jpg" class="img-fluid rounded" alt="Soukaina Spa">
+                    <div class="position-absolute rounded border-5 border-top border-start border-white" style="bottom: 0; right: 0;">
+                        <img src="img/spa_logo.png" class="img-fluid rounded" alt="Home Spa">
+                    </div>
+                    <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <p class="fs-4 text-uppercase text-primary">من نحن</p>
+                <h1 class="display-4 mb-4">أفضل مركز سبا وعناية بالبشرة في منزلك</h1>
+                <p class="mb-4">في Soukaina، نقدم لك تجربة سبا متكاملة في راحة منزلك. فريقنا النسائي المحترف يضمن لك جلسات مساج، علاجات الوجه والجسم، وعناية بالبشرة بأعلى معايير الجودة.</p>
+                
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fab fa-gitkraken fa-3x text-primary"></i>
+                            <div class="ms-4">
+                                <h5 class="mb-2">عروض مستمرة</h5>
+                                <p class="mb-0">استمتعي بعروضنا المميزة والمتجددة لجميع الخدمات المنزلية والسبا.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-gift fa-3x text-primary"></i>
+                            <div class="ms-4">
+                                <h5 class="mb-2">خدمات استثنائية</h5>
+                                <p class="mb-0">جلسات خاصة ومنزلية مع فريق نسائي محترف لضمان راحتك وتجربتك المميزة.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="my-4">نحن نحرص على تقديم خدمات سبا مريحة وآمنة في منزلك، مع مراعاة أعلى معايير النظافة والخصوصية.</p>
+                <p class="mb-4">سواء كنتِ تبحثين عن مساج استرخائي، علاجات الوجه، أو جلسات العناية بالبشرة، Soukaina هو خيارك المثالي مع عروض مستمرة واستثنائية.</p>
+
+                <a href="https://wa.me/966546474458" class="btn btn-primary btn-primary-outline-0 rounded-pill py-3 px-5">تواصل معنا الآن عبر واتساب</a>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<!-- Modal Video -->
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">فيديو تعريفي</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- 16:9 aspect ratio -->
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                        allow="autoplay"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+<!-- Appointment Start -->
+<div class="container-fluid appointment py-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <!-- Form Start -->
+            <div class="col-lg-6">
+                <div class="appointment-form p-5">
+                    <p class="fs-4 text-uppercase text-primary">تواصل معنا</p>
+                    <h1 class="display-4 mb-4 text-white">احجز موعدك الآن</h1>
+                    <form>
+                        <div class="row gy-3 gx-4">
+                            <div class="col-lg-6">
+                                <input type="text" class="form-control py-3 border-white bg-transparent text-white" placeholder="الاسم الأول">
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="email" class="form-control py-3 border-white bg-transparent text-white" placeholder="البريد الإلكتروني">
+                            </div>
+                            <div class="col-lg-6">
+                                <select class="form-select py-3 border-white bg-transparent" aria-label="Service select">
+                                    <option selected>اختر الخدمة</option>
+                                    <option value="1">مساج منزلي</option>
+                                    <option value="2">عناية بالبشرة</option>
+                                    <option value="3">سبا كامل</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6">
+                                <input type="date" class="form-control py-3 border-white bg-transparent">
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea class="form-control border-white bg-transparent text-white" name="text" id="area-text" cols="30" rows="5" placeholder="اكتب ملاحظاتك"></textarea>
+                            </div>
+                            <div class="col-lg-12">
+                                <a href="https://wa.me/966546474458" class="btn btn-primary btn-primary-outline-0 w-100 py-3 px-5 text-center">احجز عبر واتساب الآن</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Form End -->
+
+            <!-- Opening Hours Start -->
+            <div class="col-lg-6">
+                <div class="appointment-time p-5">
+                    <h1 class="display-5 mb-4">ساعات العمل</h1>
+                    <div class="d-flex justify-content-between fs-5 text-white"><p>السبت:</p><p>09:00 ص – 10:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-white"><p>الأحد:</p><p>09:00 ص – 10:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-white"><p>الاثنين:</p><p>09:00 ص – 10:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-white"><p>الثلاثاء:</p><p>09:00 ص – 10:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-white"><p>الأربعاء:</p><p>09:00 ص – 08:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-white"><p>الخميس:</p><p>09:00 ص – 05:00 م</p></div>
+                    <div class="d-flex justify-content-between fs-5 text-white mb-4"><p>الجمعة:</p><p>مغلق</p></div>
+                    <p class="text-dark">استفيدي من عروضنا الموسمية والخدمات الاستثنائية.</p>
+                </div>
+            </div>
+            <!-- Opening Hours End -->
+        </div>
+    </div>
+
+    <!-- Counter Start -->
+    <div class="container-fluid counter-section">
+        <div class="container py-5">
+            <div class="row g-5 justify-content-center">
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="counter-item p-5">
+                        <div class="counter-content bg-white p-4 text-center">
+                            <i class="fas fa-globe fa-5x text-primary mb-3"></i>
+                            <h5 class="text-primary">عملاء حول العالم</h5>
+                        </div>
+                        <div class="counter-quantity text-center">
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">379</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="counter-item p-5">
+                        <div class="counter-content bg-white p-4 text-center">
+                            <i class="fas fa-spa fa-5x text-primary mb-3"></i>
+                            <h5 class="text-primary">سبا وعناية منزلية</h5>
+                        </div>
+                        <div class="counter-quantity text-center">
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">829</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-xl-4">
+                    <div class="counter-item p-5">
+                        <div class="counter-content bg-white p-4 text-center">
+                            <i class="fas fa-users fa-5x text-primary mb-3"></i>
+                            <h5 class="text-primary">زبائن سعداء</h5>
+                        </div>
+                        <div class="counter-quantity text-center">
+                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">713</span>
+                            <span class="h1 fw-bold text-white">+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Counter End -->
+</div>
+<!-- Appointment End -->
+
+
+     <!-- Gallery Start -->
+<div class="container-fluid gallery py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+            <p class="fs-4 text-uppercase text-primary">معرضنا</p>
+            <h1 class="display-4 mb-4">اطلعي على خدماتنا المصورة</h1>
+        </div>
+        <div class="tab-class text-center">
+            <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+                <li class="nav-item">
+                    <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                        <span class="text-dark" style="width: 150px;">جميع الصور</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                        <span class="text-dark" style="width: 150px;">عناية بالبشرة</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                        <span class="text-dark" style="width: 150px;">حمام بخار</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
+                        <span class="text-dark" style="width: 150px;">العلاج بالحجر</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
+                        <span class="text-dark" style="width: 150px;">تدليك الوجه</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <!-- Tab 1: All -->
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        <div class="col-lg-12">
+                            <div class="row g-4">
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-1.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">عناية بالبشرة</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-1.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-2.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">حمام بخار</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-2.jpg" data-lightbox="Gallery-2" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-3.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">العلاج بالحجر</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-3.jpg" data-lightbox="Gallery-3" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-4.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">تدليك الوجه</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-4.jpg" data-lightbox="Gallery-4" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-5.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">عناية بالبشرة</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-5.jpg" data-lightbox="Gallery-5" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-6.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">حمام بخار</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-6.jpg" data-lightbox="Gallery-6" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-7.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">العلاج بالحجر</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-7.jpg" data-lightbox="Gallery-7" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-8.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">تدليك الوجه</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-8.jpg" data-lightbox="Gallery-8" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Skin Care -->
+                <div id="tab-2" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <div class="col-lg-12">
+                            <div class="row g-4">
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-9.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">عناية بالبشرة</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-9.jpg" data-lightbox="Gallery-9" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-10.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">عناية بالبشرة</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-10.jpg" data-lightbox="Gallery-10" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-5.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">عناية بالبشرة</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-5.jpg" data-lightbox="Gallery-11" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-1.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">عناية بالبشرة</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-1.jpg" data-lightbox="Gallery-12" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Stream Bath -->
+                <div id="tab-3" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <div class="col-lg-12">
+                            <div class="row g-4">
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-11.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">حمام بخار</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-11.jpg" data-lightbox="Gallery-13" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-12.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">حمام بخار</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-12.jpg" data-lightbox="Gallery-14" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-2.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">حمام بخار</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-2.jpg" data-lightbox="Gallery-15" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-6.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">حمام بخار</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-6.jpg" data-lightbox="Gallery-16" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 4: Stone Therapy -->
+                <div id="tab-4" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <div class="col-lg-12">
+                            <div class="row g-4">
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-13.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">العلاج بالحجر</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-13.jpg" data-lightbox="Gallery-17" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-2.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">العلاج بالحجر</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-2.jpg" data-lightbox="Gallery-18" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-3.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">العلاج بالحجر</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-3.jpg" data-lightbox="Gallery-19" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-7.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">العلاج بالحجر</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-7.jpg" data-lightbox="Gallery-20" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 5: Face Massage -->
+                <div id="tab-5" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <div class="col-lg-12">
+                            <div class="row g-4">
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-4.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">تدليك الوجه</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-4.jpg" data-lightbox="Gallery-21" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-6.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">تدليك الوجه</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-6.jpg" data-lightbox="Gallery-22" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-8.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">تدليك الوجه</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-8.jpg" data-lightbox="Gallery-23" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-14.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">تدليك الوجه</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-14.jpg" data-lightbox="Gallery-24" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-4.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">تدليك الوجه</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-4.jpg" data-lightbox="Gallery-25" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="gallery-img">
+                                        <img class="img-fluid rounded w-100" src="img/gallery-8.jpg" alt="">
+                                        <div class="gallery-overlay p-4">
+                                            <h4 class="text-secondary">تدليك الوجه</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/gallery-8.jpg" data-lightbox="Gallery-26" class="my-auto"><i class="fas fa-search-plus btn-primary btn-primary-outline-0 rounded-circle p-3"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Gallery End -->
+
+<!-- Pricing Start -->
+<div class="container-fluid pricing py-5">
+    <div class="container py-5">
+        <div class="owl-carousel pricing-carousel">
+            <!-- Basic Plan -->
+            <div class="pricing-item">
+                <div class="rounded pricing-content">
+                    <div class="d-flex align-items-center justify-content-between bg-light rounded-top border-3 border-bottom border-primary p-4">
+                        <h1 class="display-4 mb-0">
+                            <small class="align-top text-muted" style="font-size: 22px; line-height: 45px;">ر.س</small>49<small class="text-muted" style="font-size: 16px; line-height: 40px;">/شهر</small>
+                        </h1>
+                        <h5 class="text-primary text-uppercase m-0">الخطة الأساسية</h5>
+                    </div>
+                    <div class="p-4">
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك كامل للجسم</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك عميق للأنسجة</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك بالحجر الساخن</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تنعيم الجسم</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>العناية بالقدمين والأظافر</p>
+                        <a href="" class="btn btn-primary btn-primary-outline-0 rounded-pill my-2 px-4">اطلب الآن</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Family Plan -->
+            <div class="pricing-item">
+                <div class="pricing-content rounded">
+                    <div class="d-flex align-items-center justify-content-between bg-light rounded-top border-3 border-bottom border-primary p-4">
+                        <h1 class="display-4 mb-0">
+                            <small class="align-top text-muted" style="font-size: 22px; line-height: 45px;">ر.س</small>99<small class="text-muted" style="font-size: 16px; line-height: 40px;">/شهر</small>
+                        </h1>
+                        <h5 class="text-primary text-uppercase m-0">خطة العائلة</h5>
+                    </div>
+                    <div class="p-4">
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك كامل للجسم</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك عميق للأنسجة</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك بالحجر الساخن</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تنعيم الجسم</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>العناية بالقدمين والأظافر</p>
+                        <a href="" class="btn btn-primary btn-primary-outline-0 rounded-pill my-2 px-4">اطلب الآن</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- VIP Plan -->
+            <div class="pricing-item">
+                <div class="pricing-content rounded">
+                    <div class="d-flex align-items-center justify-content-between bg-light rounded-top border-3 border-bottom border-primary p-4">
+                        <h1 class="display-4 mb-0">
+                            <small class="align-top text-muted" style="font-size: 22px; line-height: 45px;">ر.س</small>149<small class="text-muted" style="font-size: 16px; line-height: 40px;">/شهر</small>
+                        </h1>
+                        <h5 class="text-primary text-uppercase m-0">الخطة المميزة</h5>
+                    </div>
+                    <div class="p-4">
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك كامل للجسم</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك عميق للأنسجة</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك بالحجر الساخن</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تنعيم الجسم</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>العناية بالقدمين والأظافر</p>
+                        <a href="" class="btn btn-primary btn-primary-outline-0 rounded-pill my-2 px-4">اطلب الآن</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Most Plan -->
+            <div class="pricing-item">
+                <div class="pricing-content rounded">
+                    <div class="d-flex align-items-center justify-content-between bg-light rounded-top border-3 border-bottom border-primary p-4">
+                        <h1 class="display-4 mb-0">
+                            <small class="align-top text-muted" style="font-size: 22px; line-height: 45px;">ر.س</small>199<small class="text-muted" style="font-size: 16px; line-height: 40px;">/شهر</small>
+                        </h1>
+                        <h5 class="text-primary text-uppercase m-0">أفضل خطة</h5>
+                    </div>
+                    <div class="p-4">
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك كامل للجسم</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك عميق للأنسجة</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تدليك بالحجر الساخن</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>تنعيم الجسم</p>
+                        <p><i class="fa fa-check text-primary me-2"></i>العناية بالقدمين والأظافر</p>
+                        <a href="" class="btn btn-primary btn-primary-outline-0 rounded-pill my-2 px-4">اطلب الآن</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Pricing End -->
+
+
+    <!-- Team Start -->
+<div class="container-fluid team py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+            <p class="fs-4 text-uppercase text-primary">أخصائي السبا</p>
+            <h1 class="display-4 mb-4">أخصائي السبا والجمال</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="team-item">
+                    <div class="team-img rounded-top">
+                        <img src="img/team-1.png" class="img-fluid w-100 rounded-top bg-light" alt="">
+                    </div>
+                    <div class="team-text rounded-bottom text-center p-4">
+                        <h3 class="text-white">أوليفا ميا</h3>
+                        <p class="mb-0 text-white">خبيرة السبا والجمال</p>
+                    </div>
+                    <div class="team-social">
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="team-item">
+                    <div class="team-img rounded-top">
+                        <img src="img/team-2.png" class="img-fluid w-100 rounded-top bg-light" alt="">
+                    </div>
+                    <div class="team-text rounded-bottom text-center p-4">
+                        <h3 class="text-white">شارلوت روس</h3>
+                        <p class="mb-0 text-white">خبيرة السبا والجمال</p>
+                    </div>
+                    <div class="team-social">
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="team-item">
+                    <div class="team-img rounded-top">
+                        <img src="img/team-3.png" class="img-fluid w-100 rounded-top bg-light" alt="">
+                    </div>
+                    <div class="team-text rounded-bottom text-center p-4">
+                        <h3 class="text-white">أميليا لونا</h3>
+                        <p class="mb-0 text-white">خبيرة السبا والجمال</p>
+                    </div>
+                    <div class="team-social">
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="team-item">
+                    <div class="team-img rounded-top">
+                        <img src="img/team-4.png" class="img-fluid w-100 rounded-top bg-light" alt="">
+                    </div>
+                    <div class="team-text rounded-bottom text-center p-4">
+                        <h3 class="text-white">إيزابيلا إيفلين</h3>
+                        <p class="mb-0 text-white">خبيرة السبا والجمال</p>
+                    </div>
+                    <div class="team-social">
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle mb-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-light btn-light-outline-0 btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Team End -->
+ <!-- Testimonial Start -->
+<div class="container-fluid testimonial py-5" style="background: var(--bs-secondary);" dir="ltr">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5" style="max-width: 800px;">
+            <p class="fs-4 text-uppercase text-primary">آراء العملاء</p>
+            <h1 class="display-4 mb-4 text-white">ماذا يقول عملاؤنا!</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel">
+            <!-- Testimonial Item 1 -->
+            <div class="testimonial-item rounded p-4">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex flex-column mx-auto">
+                            <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
+                                <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle" alt="عميل 1">
+                            </div>
+                            <div class="text-center">
+                                <h4 class="mb-2 text-primary">سارة أحمد</h4>
+                                <p class="m-0 text-white">خبيرة تجميل</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="position-absolute" style="top: 20px; right: 25px;">
+                            <i class="fa fa-quote-right fa-2x text-secondary"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex mb-4">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="fs-5 mb-0 text-white">
+                                تجربة رائعة! خدمات السبا والعناية بالبشرة كانت ممتازة، وفريق العمل محترف للغاية.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 2 -->
+            <div class="testimonial-item rounded p-4">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex flex-column mx-auto">
+                            <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
+                                <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle" alt="عميل 2">
+                            </div>
+                            <div class="text-center">
+                                <h4 class="mb-2 text-primary">ليلى محمد</h4>
+                                <p class="m-0 text-white">خبيرة تدليك</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="position-absolute" style="top: 20px; right: 25px;">
+                            <i class="fa fa-quote-right fa-2x text-secondary"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex mb-4">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="fs-5 mb-0 text-white">
+                                أحببت الخدمات والعناية الشخصية هنا، كل شيء كان منظمًا ومريحًا جدًا.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonial Item 3 -->
+            <div class="testimonial-item rounded p-4">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex flex-column mx-auto">
+                            <div class="rounded-circle mb-4" style="border: dashed; border-color: var(--bs-white);">
+                                <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle" alt="عميل 3">
+                            </div>
+                            <div class="text-center">
+                                <h4 class="mb-2 text-primary">مريم خالد</h4>
+                                <p class="m-0 text-white">خبيرة بشرة</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="position-absolute" style="top: 20px; right: 25px;">
+                            <i class="fa fa-quote-right fa-2x text-secondary"></i>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex mb-4">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="fs-5 mb-0 text-white">
+                                أفضل تجربة سبا مررت بها! أنصح الجميع بزيارة هذا المكان الرائع.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+      <!-- Contact Start -->
+<div class="container-fluid py-5">
+    <div class="container py-5">
+        <div class="row g-4 align-items-center">
+            <div class="col-12">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
+                            <i class="fas fa-map-marker-alt fa-2x text-primary me-4"></i>
+                            <div>
+                                <h4>العنوان</h4>
+                               <p class="mb-0">
+  المملكة العربية السعودية، الرياض.
+</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
+                            <i class="fas fa-envelope fa-2x text-primary me-4"></i>
+                            <div>
+                                <h4>البريد الإلكتروني</h4>
+                                <p class="mb-0">info@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-inline-flex bg-light w-100 border border-primary p-4 rounded">
+                            <i class="fa fa-phone-alt fa-2x text-primary me-4"></i>
+                            <div>
+                                <h4>الهاتف</h4>
+                                <p class="mb-0">966546474458</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          <div class="col-12">
+    <div class="rounded">
+        <iframe class="rounded-top w-100" 
+        style="height: 450px; margin-bottom: -6px;" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d362502.2258469582!2d46.531228226662126!3d24.724150648644103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ee356e71a9b6b%3A0xacfdf89f24e9b9a7!2z2KfZhNis2KfZhdi52Kkg2KfZhNi02YLYp9mE2KkgLSDYp9mE2YXZhtin2K_ZitmE!5e0!3m2!1sar!2ssa!4v1730400000000!5m2!1sar!2ssa" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="text-center p-4 rounded-bottom bg-primary">
+        <h4 class="text-white fw-bold">تابعنا</h4>
+        <div class="d-flex align-items-center justify-content-center">
+            <a href="https://www.instagram.com/by.soukaina.spa/" class="btn btn-light btn-light-outline-0 btn-square rounded-circle me-3"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/by.soukaina.spa/" class="btn btn-light btn-light-outline-0 btn-square rounded-circle me-3"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/by.soukaina.spa/" class="btn btn-light btn-light-outline-0 btn-square rounded-circle me-3"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/by.soukaina.spa/" class="btn btn-light btn-light-outline-0 btn-square rounded-circle"><i class="fab fa-linkedin-in"></i></a>
+        </div>   
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+<!-- Contact End -->
+
+    <!-- Footer Start -->
+<div class="container-fluid footer py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item">
+                    <h4 class="mb-4 text-white">النشرة الإخبارية</h4>
+                    <p class="text-white">اشترك لتصلك آخر التحديثات والعروض الخاصة. نحن نقدم أفضل خدمات السبا والجمال لتجربة استرخاء مثالية.</p>
+                    <div class="position-relative mx-auto rounded-pill">
+                        <input class="form-control rounded-pill border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="أدخل بريدك الإلكتروني">
+                        <button type="button" class="btn btn-primary btn-primary-outline-0 rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">اشترك</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">خدماتنا</h4>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> تنظيف الوجه</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> إزالة الشعر بالشمع</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> التدليك</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> الحمامات المعدنية</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> علاجات الجسم</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> العلاج بالعطور</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> سبا الأحجار الساخنة</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">مواعيد العمل</h4>
+                    <p class="text-muted mb-0">الإثنين: <span class="text-white"> 09:00 ص – 10:00 م</span></p>
+                    <p class="text-muted mb-0">السبت: <span class="text-white"> 09:00 ص – 08:00 م</span></p>
+                    <p class="text-muted mb-0">الأحد: <span class="text-white"> 09:00 ص – 05:00 م</span></p>
+                    <h4 class="my-4 text-white">العنوان</h4>
+<p class="mb-0">
+  <i class="fas fa-map-marker-alt text-secondary me-2"></i>
+  المملكة العربية السعودية / الرياض
+</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">تابعنا</h4>
+                  <a href="https://www.facebook.com/by.soukaina.spa" target="_blank">
+  <i class="fas fa-angle-right me-2 text-primary"></i> فيسبوك
+</a>
+
+<a href="https://www.instagram.com/by.soukaina.spa" target="_blank">
+  <i class="fas fa-angle-right me-2 text-primary"></i> إنستغرام
+</a>
+
+<a href="https://x.com/by.soukaina.spa" target="_blank">
+  <i class="fas fa-angle-right me-2 text-primary"></i> تويتر
+</a>
+
+<a href="https://www.linkedin.com/in/by.soukaina.spa" target="_blank">
+  <i class="fas fa-angle-right me-2 text-primary"></i> لينكدإن
+</a>
+                    <h4 class="my-4 text-white">تواصل معنا</h4>
+                    <p class="mb-0"><i class="fas fa-envelope text-secondary me-2"></i> info@example.com</p>
+                    <p class="mb-0"><i class="fas fa-phone text-secondary me-2"></i>966546474458</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+     <!-- حقوق النشر Start -->
+<div class="container-fluid copyright py-4">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-md-4 text-center text-md-start mb-md-0">
+                <span class="text-light">
+                    <a href="#"><i class="fas fa-copyright text-light me-2"></i>Soukaina</a>، جميع الحقوق محفوظة.
+                </span>
+            </div>
+            <div class="col-md-4">
+             <div class="d-flex justify-content-center">
+  <a href="https://www.facebook.com/by.soukaina.spa" target="_blank" 
+     class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2">
+    <i class="fab fa-facebook-f text-primary"></i>
+  </a>
+
+  <a href="https://x.com/by.soukaina.spa" target="_blank" 
+     class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2">
+    <i class="fab fa-twitter text-primary"></i>
+  </a>
+
+  <a href="https://www.instagram.com/by.soukaina.spa" target="_blank" 
+     class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-2">
+    <i class="fab fa-instagram text-primary"></i>
+  </a>
+
+  <a href="https://www.linkedin.com/in/by.soukaina.spa" target="_blank" 
+     class="btn btn-light btn-light-outline-0 btn-sm-square rounded-circle me-0">
+    <i class="fab fa-linkedin-in text-primary"></i>
+  </a>
+</div>
+
+            </div>
+            <!--
+             <div class="col-md-4 text-center text-md-end text-white">
+             
+                صممه <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> ووزعه <a class="border-bottom" href="https://themewagon.com">ThemeWagon</a>
+            </div>
+            -->
+        </div>
+    </div>
+</div>
+<!-- حقوق النشر End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        <!-- AI Chat Widget Start -->
+<!-- Chat Widget -->
+<div id="chat-widget" dir="ltr">
+    <div id="chat-icon" class="blink">
+        <i class="fas fa-comment-alt"></i>
+    </div>
+    <div id="chat-popup">
+        <div id="chat-header">
+            <h4 class="text-white">دعم العملاء</h4>
+            <span id="chat-close">&times;</span>
+        </div>
+        <div id="chat-messages">
+            <p class="bot-message">مرحبًا! كيف يمكنني مساعدتك اليوم؟</p>
+        </div>
+        <div id="chat-input">
+            <input type="text" placeholder="اكتب رسالتك هنا...">
+            <button id="send-btn">إرسال</button>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Chat Button -->
+<!-- AI Chat Widget End -->
+<script>
+const chatIcon = document.getElementById('chat-icon');
+const chatPopup = document.getElementById('chat-popup');
+const chatClose = document.getElementById('chat-close');
+const sendBtn = document.getElementById('send-btn');
+const chatInput = document.querySelector('#chat-input input');
+const chatMessages = document.getElementById('chat-messages');
+
+// فتح الشات عند الضغط على الأيقونة
+chatIcon.addEventListener('click', () => {
+    chatPopup.style.display = 'flex';
+});
+
+// إغلاق الشات
+chatClose.addEventListener('click', () => {
+    chatPopup.style.display = 'none';
+});
+
+// إرسال رسالة للذكاء الاصطناعي
+sendBtn.addEventListener('click', async () => {
+    const msg = chatInput.value.trim();
+    if(msg !== ''){
+        addUserMessage(msg);
+        chatInput.value = '';
+        
+        // استدعاء AI
+        const reply = await getAIReply(msg);
+        addBotMessage(reply);
+    }
+});
+
+// إضافة رسالة المستخدم
+function addUserMessage(msg){
+    const userMsg = document.createElement('p');
+    userMsg.textContent = msg;
+    userMsg.classList.add('user-message');
+    chatMessages.appendChild(userMsg);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+// إضافة رسالة الذكاء الاصطناعي
+function addBotMessage(msg){
+    const botMsg = document.createElement('p');
+    botMsg.textContent = msg;
+    botMsg.classList.add('bot-message');
+    chatMessages.appendChild(botMsg);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+}
+
+// استدعاء OpenAI API
+async function getAIReply(userMessage){
+    const API_KEY = 'ضع_مفتاحك_هنا'; // استخدم مفتاحك الشخصي
+
+    try {
+        const response = await fetch('https://api.openai.com/v1/chat/completions',{
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': `Bearer ${API_KEY}`
+            },
+            body: JSON.stringify({
+                model: "gpt-3.5-turbo",
+                messages: [
+                    {
+                        role: "system",
+                        content: "أنت مساعد دعم عملاء لمركز سبا وجمال. أجب بشكل مهني ولطيف وواضح."
+                    },
+                    {
+                        role: "user",
+                        content: userMessage
+                    }
+                ]
+            })
+        });
+
+        const data = await response.json();
+
+        // تحقق أن الرد موجود
+        if(data.choices && data.choices.length > 0 && data.choices[0].message){
+            return data.choices[0].message.content;
+        } else {
+            console.error("No valid response from OpenAI:", data);
+             return "مرحباً! شكراً لتواصلك، سنرد عليك قريباً.";
+        }
+
+    } catch (error) {
+        console.error("Error calling OpenAI API:", error);
+          return "مرحباً! شكراً لتواصلك، سنرد عليك قريباً.";
+    }
+}
+</script>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
